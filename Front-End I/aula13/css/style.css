@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+
+#cabecalho{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #1874CD;
+    color: white;
+}
+
+#fundo{ opacity: 0.8;}
+p, ul {
+    padding: 5px;
+    font-size: 30px;
+    color: #CDC673;
+
+}
+#conteudo{
+    opacity: 0.7;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/img/saoPauloMosaico.png");
+}
+
+#rodape{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    background-color: #1874CD;
+}
+
+.icone{
+    height: 32px; 
+    width: 32px;
+    align-items: center;
+    position: relative;
+    top: auto;
+    right: -1350px;
+}

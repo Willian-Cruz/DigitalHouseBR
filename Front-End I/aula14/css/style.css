@@ -1,0 +1,33 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url(/img/bg_Doceria.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.principal{
+    position: initial;
+    display: block;
+}
+
+fieldset{ 
+    border-radius: 25px;
+    border: none;
+    padding-left: 5px;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+#dadosPedido, #pedido, #pagamento{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+#banner {
+    background-image: url(/img/sandman.jpg);
+    background-attachment: fixed;
+    height: 250px;
+    width: 1450px;
+    border: 10px silver solid;
+    border-radius: 15px 50px 15px 50px;
+    padding-top: 100px;
+}
+
+body {
+    background-color: royalblue;
+}
+
+.titulo{
+    color: gold;
+    text-align: center;
+}
+
+.btn {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

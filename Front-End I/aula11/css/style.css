@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-color: darkslategray;
+  }
+
+h1{
+    text-align: center;
+    border: 10px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    padding: 35px 25px 35px;
+    border: black 5px solid;
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#mae {
+    border: 10px darkolivegreen solid;
+    padding: 300px;
+    position: relative;
+  }
+
+#div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#div2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#div3 {
+    position: fixed;
+    right: 700px;
+    bottom: 0;
+}
