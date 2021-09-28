@@ -12,7 +12,10 @@ body {
 }
 
 .principal{
-    position: initial;
+    padding-left: 250px;
+    padding-top: 150px;
+    width: 1250px;
+    align-items: center;
     display: block;
 }
 
@@ -30,4 +33,16 @@ textarea{
 #dadosPedido, #pedido, #pagamento{
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
+}
+
+legend {
+    font-size: 25px;
+    color: black;
+    background-color: rgba(80, 255, 232, 0.3);
+    border-radius: 25px;
+}
+
+label{
+    color: chocolate;
+    font-size: 25px;
 }

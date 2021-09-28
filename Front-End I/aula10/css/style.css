@@ -1,25 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 #banner {
     background-image: url(/img/sandman.jpg);
     background-attachment: fixed;
-    height: 250px;
-    width: 1450px;
-    border: 10px silver solid;
-    border-radius: 15px 50px 15px 50px;
+    height: 720px;
+    width: 1280px;
+    border: 10px goldenrod double; 
+    border-radius: 15px;
     padding-top: 100px;
 }
 
 body {
-    background-color: royalblue;
+    background-color: darkslategrey;
 }
 
 .titulo{
-    color: gold;
+    color: lightgray;
     text-align: center;
 }
 
 .btn {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
+    color: white;
+    border-radius: 3px;
+    background-color: black;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

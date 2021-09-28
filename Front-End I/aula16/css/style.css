@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://previews.123rf.com/images/skathi/skathi1601/skathi160100177/50300639-comic-vector-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+img{
+    width: 280px;
+    height: 120px;
+    left: 50px;
+    position: relative;
+    border: 3px white double;
+}
+
+img:hover{
+    transition: 0.5s;
+    width: 560px;
+    height: 240px;
+}
+
+form{
+    position: absolute;
+    left: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    color: yellow;
+}
+
+label{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    font-family: 'Comic Neue', cursive;
+}
+
+a:visited {
+    position: absolute;
+}
+
+
+a:active{
+    font-size: 45px;
+    color: rgb(26, 25, 85);
+    transition: 0.3s;
+}
+
+a {
+    color: lightgray;
+    font-size: 35px;
+    left: 30px;
+    position: relative;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Comic Neue', cursive;
+    left: 30px;
+    position: relative;
+}
+
+p::first-letter{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+legend{
+    font-size: 30px;   
+}
+
+fieldset{
+    text-align: center;
+    width: 750px;
+    height: 200px;
+    border-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#LJA:enabled,#SJA:enabled,#JT:enabled{
+    color: tomato;
+    font-size: 10px;
+}

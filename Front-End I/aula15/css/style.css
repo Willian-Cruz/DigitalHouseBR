@@ -1,0 +1,30 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:darkred;
+    text-align: center;
+}
+
+fieldset{
+    border: 5px red double;
+    padding-left: 655px;
+}
+optgroup {
+    border: 5px crimson double;
+    background-color: darkgray;
+    width: 150px;
+    color: darkblue;
+    text-align: center;
+}
+
+option{
+    color: darkblue;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 25px;
+}

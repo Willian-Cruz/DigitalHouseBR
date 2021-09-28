@@ -2,33 +2,38 @@
     box-sizing: border-box;
   }
 
+#principal{
+    background-color: #E0FFFF;
+}
 #cabecalho{
+    border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #1874CD;
-    color: white;
+    background-color: lightblue;
+    color: midnightblue;
 }
 
-#fundo{ opacity: 0.8;}
+
 p, ul {
     padding: 5px;
     font-size: 30px;
-    color: #CDC673;
+    color: #E0FFFF;
 
 }
 #conteudo{
-    opacity: 0.7;
-    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("/img/saoPauloMosaico.png");
+    background-image: url("/img/sp.jpeg");
+    background-size: cover;
 }
 
 #rodape{
+    border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0;
-    background-color: #1874CD;
+    background-color: lightblue;
 }
 
 .icone{

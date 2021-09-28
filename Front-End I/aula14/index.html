@@ -11,32 +11,32 @@
     <form class="principal" action="#" method="POST">
         <Fieldset id="dadosPedido">
             <legend>Faça seu pedido!!</legend>
-            <label for="nome">Nome: </label>
+            <label for="nome">Nome: </label><br>
             <input type="text" name="nome" id="nome">
             <br>
-            <label for="endereco">Endereço:</label>
-            <textarea name="endereco" id="endereco" cols="30" rows="1"></textarea>
+            <label for="endereco">Endereço:</label><br>
+            <textarea name="endereco" id="endereco" cols="25" rows="1"></textarea>
             <br>
-            <label for="telefone">Contato(Pode ser Whatsapp):</label>
+            <label for="telefone">Contato(Pode ser Whatsapp):</label><br>
             <input type="tel" name="telefone" id="telefone" maxlength="11" placeholder="(XX)XXXXX-XXXX">
         </Fieldset>
         <fieldset id="pedido">
             <legend>Cardápio:</legend>
-            <label>Sobremesas:</label>
+            <label>Sobremesas:</label><br>
             <select name="sobremesas" id="sobremesas">
                 <option value="">Escolha uma opção</option>
-                <option value="pave">Pavê</option>
+                <option value="pave">Pavê</option>br
                 <option value="mousse">Mousse</option>
                 <option value="pudim">Pudim</option>
-            </Select>
-            <label>Bolos:</label>
+            </Select><br>
+            <label>Bolos:</label><br>
             <select name="bolos" id="bolos">
                 <option value="" selected>Escolha uma opção</option>
                 <option value="seco">Seco</option>
                 <option value="cremoso">Cremoso</option>
                 <option value="recheado">Recheado</option>
-            </select>
-            <label>Tortas:</label>
+            </select><br>
+            <label>Tortas:</label><br>
             <select name="tortas" id="tortas">
                 <option value="" selected>Escolha uma opção</option>
                 <option value="torta">Torta</option>
@@ -47,12 +47,12 @@
         <fieldset id="pagamento">
             <legend>Forma de pagamento</legend>
             <label for="">Escolha uma das opções:</label>
-            <label for="dinheiro">Dinheiro</label>
             <input type="radio" name="pagamento" value="dinheiro" checked>
-            <label for="debito">Débito</label>
+            <label for="dinheiro">Dinheiro</label>
             <input type="radio" name="pagamento" value="debito">
-            <label for="credito">Crédito</label>
+            <label for="debito">Débito</label>
             <input type="radio" name="pagamento" value="credito">
+            <label for="credito">Crédito</label>
             </select>
         </fieldset>
     </form>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <h1>Checkpoint 2 - Front End I</h1>
+    </header>
+    <section>
+        <div>
+            <form action="#" id="principal">
+            <fieldset>
+                <legend>Preencha seus dados aqui:</legend>
+                <label for="nome">Nome Completo: </label>
+                <input type="text" name="nome" id="nome" maxlength="100" placeholder="Nome Completo" *>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="email@email.com">
+                <label for="telefone">Telefone(Somente DDD e número): </label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(XX)XXXXX-XXXX">
+                <label for="nascimento">Data de nascimento: </label>
+                <input type="date" name="nascimento" id="nascimento" placeholder="aaaa-mm-dd">
+                <label for="maior">Sou maior de idade</label>
+                <input type="radio" name="idade" id="maior" checked>
+                <label for="menor">Sou menor de idade</label>
+                <input type="radio" name="idade" id="menor">
+                <label>Pontos de interesse: </label><br>
+                <select name="interesses" id="interesses">
+                    <option value="#" disabled selected>Escolha uma opção:</option>
+                    <option value="parques">Parques</option>
+                    <option value="restaurantes">Restaurantes</option>
+                    <option value="diversao">Diversão</option>
+                </select><br>
+                    <label for="">Escolha qual seu interesse na cidade: </label>
+                    <label for="turista">Turista</label>
+                    <input type="checkbox" name="estadia" id="turista">
+                    <label for="estudante">Estudante</label>
+                    <input type="checkbox" name="estadia" id="estudante">
+                    <label for="residente">Residente</label>
+                    <input type="checkbox" name="estadia" id="residente">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar dados</button>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer id="rodape">
+        <img src="/img/whatsapp.png" id="icone">
+    </footer>
+</body>
+</html>

@@ -1,41 +1,52 @@
 * {
     box-sizing: border-box;
-    background-color: darkslategray;
+    background-color: lightgray;
   }
 
 h1{
     text-align: center;
-    border: 10px;
+    border: 5px;
 }
 .box {
     width: 150px;
     height: 150px;
-    padding: 35px 25px 35px;
-    border: black 5px solid;
-    background-color: white;
-    font-size: 35px;
+    font-size: 15px;
     text-align: center;
 }
 #mae {
-    border: 10px darkolivegreen solid;
+    border: darkblue 5px solid;
     padding: 300px;
     position: relative;
   }
 
 #div1 {
+    border: 3px black solid;
     position: absolute;
-    top: 0;
     left: 0;
+    top: 0;
+    background-color: white;
 }
 
 #div2 {
+    border: 3px black solid;
     position: absolute;
-    top: 0;
     right: 0;
+    top: 0;
+    background-color: white;
 }
 
 #div3 {
+    border: 3px black solid;
     position: fixed;
-    right: 700px;
-    bottom: 0;
+    right: 620px;
+    bottom: 15px;
+    background-color: white;
+}
+
+p{
+    border: 2px black solid;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

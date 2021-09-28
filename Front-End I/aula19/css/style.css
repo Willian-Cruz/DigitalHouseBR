@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{ text-align: center;}
+
+body {animation: alerta; }
+.menu-principal {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+}
+
+li{
+    border: 3px lightcoral solid;
+    margin-bottom: 5px;
+    border-radius: 45px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: pink;
+    padding-top: 5;
+}
+
+@keyframes alerta{
+    0% { opacity: 100%; }
+    50% { opacity: 100%; transform: translateY(-20px); }
+    100% { opacity: 0%; }
+}
