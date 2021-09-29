@@ -1,7 +1,13 @@
-@keyframes fantasma{
+@keyframes piscar{
     0% { opacity: 100%; }
     50% { opacity: 100%; transform: translateY(20px); transform: scale(2); }
     100% { opacity: 100%; }
+}
+
+@keyframes aumentar {
+    0%{ opacity: 100%; }
+    50%{ transform: scale(2); }
+    100%{ opacity: 100%; }
 }
 
 *{
@@ -10,37 +16,132 @@
     padding: 0;
 }
 
-h1{
+h1, h2{
     text-align: center;
-}
-
-.principal{
-
+    color: rgb(255, 238, 4);
 }
 
 button{
-    width: 60px;
-    height: 30px;
-    border-radius: 5px;
-    padding: 10px;
-    border: 3px blue solid;
-
+    width: 75px;
+    height: 40px;
+    padding: 5px;
+    border: 5px black double;
 }
 
 button:hover{
     transition: 1.5s;
-    background-color: blue;
+    background-color: darkblue;
     color: white;
 }
 
 #icone{
     bottom: 35px;
-    right: 40px;
+    right: 60px;
     position: absolute;
     width: 50px;
     height: 50px;
-    
 }
 
-#icone:hover{ animation: fantasma 1s infinite;}
+#icone:hover{
+    animation: piscar 1s infinite;
+}
 
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(../img/massaguacu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+iframe{
+    height: 720px;
+    width: 1280px;
+    margin-left: 35px;
+}
+
+ul{
+    color: rgb(54, 56, 56);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(252, 250, 250, 0.1);
+}
+
+.yt{
+    margin-left: 800px;
+    margin-top: -114px;
+    position: absolute;
+}
+
+.formulario{
+    background-color: rgba(252, 250, 250, 0.1);
+    color: rgb(12, 7, 41);
+    border: 4px rgb(136, 136, 136) double;
+    border-radius: 10px;
+}
+
+fieldset{
+    padding: 30px;
+}
+
+input:hover, .lblForm:hover{
+    animation: aumentar 2s normal;
+}
+
+input:hover{
+    background-color: darkcyan;
+    color: blue;
+}
+
+#nome, #email, #telefone, #nascimento{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    padding: 8px;
+}
+ 
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -680px;
+}
+
+.descricao{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(12, 7, 41);
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+.ponto{
+    margin-left: 550px;
+}
+.maior{
+    margin-left: 130px;
+}
+.sub{
+    margin-right: 100px;
+}
