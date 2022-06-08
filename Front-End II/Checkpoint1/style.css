@@ -43,6 +43,42 @@ button {
     background-color: darkcyan; 
     color: white; 
 }
-.wrapper-result{
-    background-color: yellow;
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    width: 90vw;
+    gap: 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card_imgWrapper {
+    width: 100%;
+    overflow: hidden;
+    max-height: 320px;
+}
+
+.card__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card__img:hover {
+    transform: scale(1.1);
+}
+
+.card__info {
+    padding: 16px;
+}
+
+.card__title {
+    color: rgb(173 173 173);
 }
