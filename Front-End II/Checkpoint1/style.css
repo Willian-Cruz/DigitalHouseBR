@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 .wrapper {
     height: 100vh;
     width: 100vw;
