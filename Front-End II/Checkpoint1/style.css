@@ -7,11 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 .wrapper {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
     background-color: black;
     display: grid;
     place-items: center;
+    gap: 100px;
+    padding: 50px 0 100px;
 }
 
 h2 { 
@@ -44,11 +46,16 @@ button {
     color: white; 
 }
 
+.wrapper-result {
+    min-height: 370px;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     width: 90vw;
     gap: 16px;
+    max-height: fit-content;
 }
 
 .card {
@@ -58,6 +65,10 @@ button {
     overflow: hidden;
 }
 
+.card:active {
+    transform: scale(0.95);
+}
+
 .card_imgWrapper {
     width: 100%;
     overflow: hidden;
@@ -65,7 +76,7 @@ button {
 }
 
 .card__img {
-    height: 100%;
+    height: 320px;
     width: 100%;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
@@ -75,10 +86,41 @@ button {
     transform: scale(1.1);
 }
 
+.loader {
+    width: 100%;
+    height: 320px;
+    background-color: grey;
+    display: grid;
+    place-items: center;
+}
+
+.loader::before {
+    content: "";
+    border-radius: 50%;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid rgb(44, 111, 255);
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 1.5s cubic-bezier(.3,.43,.86,.47) infinite;
+    animation: spin 1.5s cubic-bezier(.3,.43,.86,.47) infinite;
+}
+
 .card__info {
     padding: 16px;
 }
 
 .card__title {
     color: rgb(173 173 173);
+    text-transform: capitalize;
 }
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
